@@ -14,7 +14,7 @@ Ce dépôt regroupe plusieurs petits projets Python réalisés dans le cadre de 
 
 ## generateur_de_mot_de_passe.py
 
-Génère un mot de passe aléatoire selon des critères définis par l'utilisateur (longueur, types de caractères inclus, etc.).
+Génère un mot de passe aléatoire selon des critères définis par l'utilisateur.
 
 **Lancer le script :**
 ```bash
@@ -41,6 +41,11 @@ python devine_le_nombre.py
 ## calculatrice_simple.py
 
 Calculatrice en ligne de commande permettant d'effectuer les opérations de base (addition, soustraction, multiplication, division) à partir de la saisie de l'utilisateur.
+
+**Fonctionnalités :**
+- Saisie de deux nombres avec possibilité de les modifier avant de calculer, avec validation des entrées
+- Gestion de la division par zéro (affichage d'un message d'erreur au lieu d'un crash)
+- Possibilité d'enchaîner plusieurs calculs sans relancer le programme
 
 **Lancer le script :**
 ```bash
