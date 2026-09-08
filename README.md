@@ -2,7 +2,7 @@
 
 Une calculatrice en ligne de commande qui effectue les 4 opérations de base, avec validation des entrées et gestion des erreurs.
 
-## Fonctionalités
+## Fonctionnalités
 
 - Opérations : addition, soustraction, multiplication, division
 - Saisie de deux nombres, avec possibilité de les modifier avant de calculer
