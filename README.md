@@ -1,25 +1,60 @@
-# Python_Calculator
+# Mini-projets Python
 
-Une calculatrice en ligne de commande qui effectue les 4 opérations de base, avec validation des entrées et gestion des erreurs.
+Ce dépôt regroupe plusieurs petits projets Python réalisés dans le cadre de mon apprentissage. Chaque script est indépendant et peut être exécuté séparément.
 
-## Fonctionnalités
+## 📋 Sommaire
+(de plus récent au plus ancien)
 
-- Opérations : addition, soustraction, multiplication, division
-- Saisie de deux nombres, avec possibilité de les modifier avant de calculer
-- Validation des deux entrées : rejette les valeurs non numériques et les réponses oui/non mal formulées, en rebouclant jusqu'à obtenir une entrée valide
-- Gestion de la division par zéro (message d'erreur au lieu d'un crash)
-- Possibilité d'enchaîner plusieurs calculs sans relancer le programme
+- [generateur_de_mot_de_passe.py](#generateur_de_mot_de_passepy)
+- [devine_le_nombre.py](#devine_le_nombrepy)
+- [calculatrice_simple.py](#calculatrice_simplepy)
+- [presentation_interactive.py](#presentation_interactivepy)
 
-## Comment lancer le programme 
+---
 
-\'\'\'bash
-python caculatrice.py
-\'\'\'
+## generateur_de_mot_de_passe.py
 
-## Ce que j'ai appris
+Génère un mot de passe aléatoire selon des critères définis par l'utilisateur (longueur, types de caractères inclus, etc.).
 
-Ce projet m'a permis de pratiquer :
+**Lancer le script :**
+```bash
+python generateur_de_mot_de_passe.py
+```
+---
 
-- **La gestion des erreurs avec try/except** : la saisie des nombres est entourée d'un bloc try/except pour intercepter une 'ValueError' si l'utilisateur tape autre chose qu'un nombre, sans faire planter le programme.
-- **La validation par boucle 'while'** : plutôt que de valider une fois, j'ai utilisé des boucles 'while' qui redemandent la saisie tant qu'elle n'est pas valide (pour les réponses oui/non et pour l'opérateur)
-- **La factorisation en fonctions** : j'ai remarqué que je demandais une confirmation oui/non à deux endroits différents dans le programme (pour modifier les nombres, et pour relancer un calcul). Plutôt que de dupliquer cette logique, je l'ai extraite dans une fonction 'demande_oui_non' réutilisable.
+## devine_le_nombre.py
+
+Jeu dans lequel l'ordinateur choisit aléatoirement un nombre dans un intervalle défini par le joueur, qui doit ensuite le deviner en un nombre limité de tentatives.
+
+**Fonctionnalités :**
+- Choix personnalisé de l'intervalle (min/max), avec validation des entrées
+- Limite de tentatives configurable
+- Compteur de parties jouées et possibilité de rejouer
+
+**Lancer le script :**
+```bash
+python devine_le_nombre.py
+```
+
+---
+
+## calculatrice_simple.py
+
+Calculatrice en ligne de commande permettant d'effectuer les opérations de base (addition, soustraction, multiplication, division) à partir de la saisie de l'utilisateur.
+
+**Lancer le script :**
+```bash
+python calculatrice_simple.py
+```
+
+---
+
+## presentation_interactive.py
+
+Script de présentation interactive en ligne de commande.
+
+**Lancer le script :**
+```bash
+python presentation_interactive.py
+```
+---
