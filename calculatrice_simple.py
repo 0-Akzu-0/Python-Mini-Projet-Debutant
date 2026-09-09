@@ -1,3 +1,16 @@
+"""
+1) Demander à l'utilisateur de choisir deux nombres
+2) Demander confirmation avant de continuer
+3) Demander de choisir une opération
+4) Afficher le résultat du calcul
+5) Demander si l'utilisateur veut refaire un calcul ou non
+
+"""
+
+
+print("---CALCULATRICE---")
+
+
 def demande_oui_non(question):
         reponse = input(question).strip().lower()
         while reponse not in ["oui", "non"]:
@@ -16,9 +29,6 @@ def demander_nombre():
             print(f"Vous avez choisi : {nombre_1} et {nombre_2}")
             break
     return nombre_1, nombre_2
-
-
-print("---CALCULATRICE---")
 
 while True:
     nombre_1, nombre_2 = demander_nombre()

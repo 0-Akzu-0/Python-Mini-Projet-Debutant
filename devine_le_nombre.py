@@ -1,3 +1,14 @@
+"""
+1) Demander à l'utilisateur l'intervalle du nombre à deviner
+2) Demander confirmation avant de continuer
+3) Demander combien de tentatives pour deviner le nombre
+4) Demander de deviner le nombre
+5) Donner à l'utilisateur des indices par exemple si c'est trop grand ou si c'est trop petit
+6) Féciliciter l'utilisateur s'il a réussi à deviner ou sinon lui dire que le nombre de tentatives a été épuiser, tout en l'informant du nombre de tentatives qu'il a utilisé
+7) Demander s'il veut rejouer ou non
+
+"""
+
 import random
 
 print("---Bienvenue dans le jeu du devine le nombre !---")
